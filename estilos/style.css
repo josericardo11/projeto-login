@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow-y: hidden;
+
+    width: 250px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border: 1px solid gray;
+    box-sizing: content-box;
+}
+
+section#login div#imagem {
+    display: block;
+    background-image: url(../imagens/pexels-jnovphoto-924824.jpg);
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+section#login div#formulario {
+    padding: 10px;
+}
