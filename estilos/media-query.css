@@ -15,6 +15,25 @@
     section#login div#formulario{
         float: right;
         width: 70%;
+        margin-top: 50px;
+    }
+
+    div#formulario h1 {
+        font-size: 2em;
+        margin-bottom: 25px;
+    }
+
+    div#formulario p {
+        font-size: 1em;
+        margin-bottom: 20px;
+    }
+
+    form input {
+        width: 85%;
+    }
+
+    form input[type=submit] {
+        margin-top: 20px;
     }
 }
 
@@ -33,5 +52,23 @@
     section#login div#formulario {
         float: left;
         width: 50%;
+    }
+
+    div#formulario h1 {
+        font-size: 2em;
+        margin-bottom: 25px;
+    }
+
+    div#formulario p {
+        font-size: 1em;
+        margin-bottom: 20px;
+    }
+
+    form input {
+        width: 85%;
+    }
+
+    form input[type=submit] {
+        margin-top: 20px;
     }
 }
